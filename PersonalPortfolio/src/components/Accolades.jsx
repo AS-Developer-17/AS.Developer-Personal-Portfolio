@@ -20,6 +20,16 @@ export default function Accolades() {
             <div className="space-y-6">
               {/* Achievement 1 */}
               <div className="p-5 rounded-2xl bg-slate-50 dark:bg-slate-900/60 border border-slate-100 dark:border-slate-800/50 hover:border-purple-500/30 transition-all duration-300">
+                <h4 className="text-base font-bold text-slate-800 dark:text-slate-200 mb-2 leading-snug">
+                  Served as Head Boy of The Heritage Sr Sec School Kashipur during the academic session 2026-27
+                </h4>
+                <p className="text-sm text-slate-500 dark:text-slate-400">
+                  Appointed to lead the student council, represent the student body, and coordinate school-wide events and leadership initiatives.
+                </p>
+              </div>
+
+              {/* Achievement 2 */}
+              <div className="p-5 rounded-2xl bg-slate-50 dark:bg-slate-900/60 border border-slate-100 dark:border-slate-800/50 hover:border-blue-500/30 transition-all duration-300">
                 <div className="flex justify-between items-start gap-4 mb-2">
                   <h4 className="text-base font-bold text-slate-800 dark:text-slate-200 leading-snug">
                     Pre Finalist of "Hackathon 24~2025 by SCERT Uttarakhand"
@@ -39,8 +49,8 @@ export default function Accolades() {
                 </p>
               </div>
 
-              {/* Achievement 2 */}
-              <div className="p-5 rounded-2xl bg-slate-50 dark:bg-slate-900/60 border border-slate-100 dark:border-slate-800/50 hover:border-blue-500/30 transition-all duration-300">
+              {/* Achievement 3 */}
+              <div className="p-5 rounded-2xl bg-slate-50 dark:bg-slate-900/60 border border-slate-100 dark:border-slate-800/50 hover:border-pink-500/30 transition-all duration-300">
                 <h4 className="text-base font-bold text-slate-800 dark:text-slate-200 mb-2 leading-snug">
                   Zonal Ranker (3, 2, 6) in the National Cyber Olympiad (NCO)
                 </h4>
@@ -60,8 +70,8 @@ export default function Accolades() {
                 </div>
               </div>
 
-              {/* Achievement 3 */}
-              <div className="p-5 rounded-2xl bg-slate-50 dark:bg-slate-900/60 border border-slate-100 dark:border-slate-800/50 hover:border-pink-500/30 transition-all duration-300">
+              {/* Achievement 4 */}
+              <div className="p-5 rounded-2xl bg-slate-50 dark:bg-slate-900/60 border border-slate-100 dark:border-slate-800/50 hover:border-teal-500/30 transition-all duration-300">
                 <h4 className="text-base font-bold text-slate-800 dark:text-slate-200 mb-2 leading-snug">
                   Competitive Olympiads Recognition
                 </h4>
@@ -82,6 +92,7 @@ export default function Accolades() {
             </div>
           </div>
         </div>
+
 
         {/* Visual Media Column */}
         <div className="lg:col-span-5 flex flex-col justify-center">

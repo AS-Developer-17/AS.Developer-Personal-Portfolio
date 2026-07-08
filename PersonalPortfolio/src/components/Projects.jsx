@@ -1,4 +1,4 @@
-import { ExternalLink, Paintbrush, BookOpen, GraduationCap, Gamepad2, FileText } from 'lucide-react'
+import { ExternalLink, Paintbrush, BookOpen, GraduationCap, Gamepad2, FileText, Heart } from 'lucide-react'
 
 // Custom GitHub icon to bypass missing lucide-react exports in some package builds
 const GithubIcon = ({ className }) => (
@@ -20,6 +20,14 @@ const GithubIcon = ({ className }) => (
 
 export default function Projects() {
   const projectList = [
+    {
+      title: 'Vozlyublennyy.io',
+      description: 'A comprehensive relationship utility platform featuring an interactive AI chat companion (Natasha), personalized date planners, custom nickname generators, and romantic quote builders.',
+      tag: 'React Web Application',
+      link: 'https://vozlyublennyy-io.web.app/',
+      type: 'live-app',
+      icon: <Heart className="w-6 h-6 text-rose-500" />
+    },
     {
       title: 'AS Dark Theme',
       description: 'A visually striking, high-contrast Visual Studio Code editor theme designed to reduce eye strain and provide vibrant syntax highlighting.',
@@ -110,6 +118,10 @@ export default function Projects() {
                 ) : project.type === 'marketplace' ? (
                   <>
                     <ExternalLink className="w-4 h-4" /> Marketplace Link
+                  </>
+                ) : project.type === 'live-app' ? (
+                  <>
+                    <ExternalLink className="w-4 h-4" /> Launch App Live
                   </>
                 ) : (
                   <>

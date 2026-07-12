@@ -1,4 +1,4 @@
-import { ExternalLink, Paintbrush, BookOpen, GraduationCap, Gamepad2, FileText, Heart } from 'lucide-react'
+import { ExternalLink, Paintbrush, BookOpen, GraduationCap, Gamepad2, FileText, Heart, Lock, Terminal } from 'lucide-react'
 
 // Custom GitHub icon to bypass missing lucide-react exports in some package builds
 const GithubIcon = ({ className }) => (
@@ -21,6 +21,14 @@ const GithubIcon = ({ className }) => (
 export default function Projects() {
   const projectList = [
     {
+      title: 'OdinokiyVolk.io',
+      description: 'An unbreachable self-improvement dashboard for developers. Refactor vague goals into SMART checklist roadmaps, track habits on glowing heatmaps, and build character in the void.',
+      tag: 'React Web Application',
+      link: 'https://odinokiyvolk-io.web.app/',
+      type: 'live-app',
+      icon: <Terminal className="w-6 h-6 text-indigo-500" />
+    },
+    {
       title: 'Vozlyublennyy.io',
       description: 'A comprehensive relationship utility platform featuring an interactive AI chat companion (Natasha), personalized date planners, custom nickname generators, and romantic quote builders.',
       tag: 'React Web Application',
@@ -39,7 +47,7 @@ export default function Projects() {
     {
       title: 'Eduhub',
       description: 'A highly functional and responsive analytics dashboard designed for serious JEE Advanced candidates to monitor their study schedule and syllabus completion.',
-      tag: 'React Web App',
+      tag: 'Python Streamlit App',
       link: 'https://github.com/AS-Developer-17/EduHub',
       type: 'github',
       icon: <GraduationCap className="w-6 h-6 text-purple-500" />
@@ -47,7 +55,7 @@ export default function Projects() {
     {
       title: 'JEE Advanced Test Series',
       description: 'A free open-source practice exam platform offering Mock Tests, analytical feedback, and solution keys to aid students preparing for JEE Advanced exams.',
-      tag: 'Web Platform',
+      tag: 'Python Streamlit App',
       link: 'https://github.com/AS-Developer-17/JEE-Advanced-Test-Series',
       type: 'github',
       icon: <BookOpen className="w-6 h-6 text-blue-500" />
@@ -67,6 +75,22 @@ export default function Projects() {
       link: 'https://github.com/AS-Developer15/TextEditor',
       type: 'github',
       icon: <FileText className="w-6 h-6 text-cyan-500" />
+    },
+    {
+      title: 'Caesar Cypher',
+      description: 'A desktop cryptographic utility application for text encryption and decryption using the Caesar Cipher algorithm, built with Python and Tkinter.',
+      tag: 'Python Desktop App',
+      link: 'https://github.com/AS-Developer-17/Caesar-Cypher/blob/main/CaserCypherTkinter.exe',
+      type: 'github',
+      icon: <Lock className="w-6 h-6 text-amber-500" />
+    },
+    {
+      title: 'Tic-Tac-Toe Game',
+      description: 'A classic Tic-Tac-Toe game implementation in Python featuring both a standard command-line interface and a modern, custom-themed Tkinter desktop GUI.',
+      tag: 'Python Desktop App',
+      link: 'https://github.com/AS-Developer-17/Tic-Tac-Toe-Game',
+      type: 'github',
+      icon: <Gamepad2 className="w-6 h-6 text-emerald-500" />
     }
   ]
 

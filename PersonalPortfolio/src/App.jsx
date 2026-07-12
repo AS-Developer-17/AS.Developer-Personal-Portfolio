@@ -53,8 +53,8 @@ function App() {
                   <Welcome />
                   <AboutMe />
                   <Accolades />
-                  <Skills />
                   <Projects />
+                  <Skills />
                   <Contact />
                 </div>
               } 

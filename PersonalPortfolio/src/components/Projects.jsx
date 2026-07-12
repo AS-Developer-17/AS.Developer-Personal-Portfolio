@@ -21,6 +21,14 @@ const GithubIcon = ({ className }) => (
 export default function Projects() {
   const projectList = [
     {
+      title: 'Desmos Clone',
+      description: 'A sophisticated 2D graphing calculator replica capable of plotting mathematical functions and equations, built with Python and Streamlit.',
+      tag: 'Python Streamlit App',
+      link: 'https://desmos-clone-asdev.streamlit.app/',
+      type: 'live-app',
+      icon: <Terminal className="w-6 h-6 text-emerald-500" />
+    },
+    {
       title: 'OdinokiyVolk.io',
       description: 'An unbreachable self-improvement dashboard for developers. Refactor vague goals into SMART checklist roadmaps, track habits on glowing heatmaps, and build character in the void.',
       tag: 'React Web Application',

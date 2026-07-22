@@ -1,4 +1,4 @@
-import { ExternalLink, Paintbrush, BookOpen, GraduationCap, Gamepad2, FileText, Heart, Lock, Terminal } from 'lucide-react'
+import { ExternalLink, Paintbrush, BookOpen, GraduationCap, Gamepad2, FileText, Heart, Lock, Terminal, Dumbbell } from 'lucide-react'
 
 // Custom GitHub icon to bypass missing lucide-react exports in some package builds
 const GithubIcon = ({ className }) => (
@@ -20,6 +20,14 @@ const GithubIcon = ({ className }) => (
 
 export default function Projects() {
   const projectList = [
+    {
+      title: 'AS Gym',
+      description: 'A high-performance modern gym & fitness web application featuring an interactive BMI calculator, personal training session booking, before/after transformation comparisons, class schedule matrix, and dynamic blog.',
+      tag: 'React Web Application',
+      link: 'https://asgymsite.web.app/',
+      type: 'live-app',
+      icon: <Dumbbell className="w-6 h-6 text-orange-500" />
+    },
     {
       title: 'Desmos Clone',
       description: 'A sophisticated 2D graphing calculator replica capable of plotting mathematical functions and equations, built with Python and Streamlit.',
